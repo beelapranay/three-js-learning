@@ -12,8 +12,8 @@ scene.add(mesh);
 
 // Sizes - Viewport width and height
 const sizes = {
-    width: 800,
-    height: 600
+    width: window.innerWidth,
+    height: window.innerHeight
 }
 
 // Creating and adding a camera to the scene to make it visible
